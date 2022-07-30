@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: rgb(39, 33, 33);
+}
+
+header .wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+    background-color:rgb(54, 50, 50);
+    padding: 2.5em;
+}
+header .icon img{
+    width: 100px;
+    height: 100px;
+}
+header .title h1{
+    color:green;
+    margin-right:350px ;
+    margin-top: 60px;
+}
+main .wrap_content{
+    width: 800px;
+    margin: 100px auto;
+}
+main .wrap_content h2{
+    text-align: center;
+    color:white;
+}
+.wrap_input{
+    text-align: center;
+    margin-top: 70px;
+    display: flex;
+    gap: 20px;
+}
+.wrap_input label{
+    color: wheat;
+}
+.result{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 150px;
+    
+}
+.result input{
+    width: 350px;
+    margin: 0 auto;
+    background-color: grey;
+}
+
+.result label{
+    color: wheat;
+    text-align: center;
+    
+}
+input{
+    border: none;
+}
+.cal-to-action{
+    width: 300px;
+    display: flex;
+    margin:0 auto;  
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.cal-to-action .btn-style{
+    width: 100px;
+}
+select{
+    margin-top: 25px;
+    background-color: gray;
+    color: wheat;
+    border: none;
+    padding: 0.7em;
+}
+footer{
+    background-color: rgb(54, 50, 50);
+    width: 100%;
+    padding: 3em;
+}
+footer .wrap-footer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer .wrap-footer .about{
+    color: wheat;
+    text-align: center;
+}
+footer .wrap-footer .copyright{
+    margin-top: 160px;
+    color: wheat;
+}
+footer .copyright p span{
+    font-size: 1em;
+    background-color:rgb(87, 80, 80) ;
+    padding: 0.7em;
+}
+footer .wrap-footer a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(90, 83, 83);
+    border-radius: 25px;
+}
+footer .social-list i{
+    font-size: 30px;
+    color:wheat;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+footer .social-list ul{
+    display: flex;
+    gap: 1em;
+}

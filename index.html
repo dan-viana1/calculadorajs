@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap-5/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Calculadora javascript</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="wrap">
+        <div class="icon">
+          <img src="./calculate.png" alt="icon calculator">
+        </div>
+        <div class="title">
+          <h1>Calculadora javascript</h1>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="wrap_content">
+        <h2>Digite dois valores para obter o resultado</h2>
+     
+        <div class="wrap_input">
+            <div class="number">
+              <label for="num1">Digite um número</label>
+              <input type="number" name="num1" id="num1" required>
+            </div>  
+            <div class="number">
+              <label for="num2">Digite outro número</label>
+              <input type="number" name="num2" id="num2" required>
+            </div> 
+            <div class="select">
+              <select name="selection" id="selection">
+                <option value="">selecione a operação</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+  
+              </select>
+            </div> 
+        </div>
+        <div class="result">
+          <label for="result">Resultado</label>
+          <input type="number"name="result" id="result" disabled>
+        </div>
+        <div class="cal-to-action">
+         
+          <div class="calculate">
+             <button class="btn btn-success btn-style" id="calculate">Calcular</button>
+          </div>
+          <div class="reset">
+            <button class="btn btn-danger btn-style" id="reset">Zerar</button>
+          </div>
+        </div>
+     </div>
+    </main>
+    <footer>
+      <div class="wrap-footer">
+        <div class="about">
+          <h3>Sobre</h3>
+          <p>Essa é uma simples calculadora desenvolvida <br>
+          com javascript, útil para cálculos com as quatro <br>
+        operações aritiméticas básicas.</p>
+        <p>Foi desenvolvida para fins de estudo da técnologia <br>
+        mas ainda sim é muito útil e intuitiva.</p>
+        </div>
+        <div class="copyright">
+          <p>Copyright <span>Danilo Viana </span>  &copy;</p>
+        </div>
+        <div class="social-list">
+          <ul class="list-unstyled">
+            <li><a href="https://www.facebook.com/danviana35/"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/danviana_ofc/"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/danilo-dos-santos-viana-b9367123a/"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://contate.me/danviana"><i class="fa fa-whatsapp"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+          <script src="./main.js"></script>
+</body>
+</html>
